@@ -1,6 +1,5 @@
 // Importa el paquete widgets.dart de Flutter (contiene widgets básicos)
 import 'package:flutter/widgets.dart';
-
 // Define Derecho como un StatefulWidget (widget con estado)
 class Derecho extends StatefulWidget{
   // Constructor constante que recibe una key opcional
@@ -13,7 +12,6 @@ class Derecho extends StatefulWidget{
     return body();
   }
 }
-
 // Clase body que extiende State<Derecho> para manejar el estado
 class body extends State<Derecho>{
   // Método build que construye la interfaz de usuario
